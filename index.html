@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,50 +25,58 @@
     </div>
     <div class="hero-section">
         <div class="hero-left-content">
-            <div class="hero-main-text">
-                <p>This website is awesome!</p>
-            </div>
+            <p class="hero-main-text">This website is awesome!</p>
             <p class="hero-secondary-text">
                 This website has some subtext that goes here under the main title. It's a smaller font and the color is
                 lower contrast.
             </p>
             <button type="button" id="signup-button">Sign up</button>
         </div>
-        <img src="placeholder.jpg" alt="placeholder" class="hero-image">
+        <div class="hero-image-container">
+            <img src="placeholder.jpg" alt="placeholder" class="hero-image">
+        </div>
     </div>
     <div class="informational">
-        <div>
-            <p>Some random information</p>
+        <div class="informational-heading">
+            <p>Some random information.</p>
         </div>
         <div class="image-and-subtext-section">
             <div class="image-and-subtext">
                 <img src="placeholder.jpg" alt="placeholder" class="informational-image">
-                <p class="information-subtext">this is some subtext under an illustration or image</p>
+                <div class="subtext-container">
+                    <p class="information-subtext">this is some subtext under an illustration or image.</p>
+                </div>
             </div>
             <div class="image-and-subtext">
                 <img src="placeholder.jpg" alt="placeholder" class="informational-image">
-                <p class="information-subtext">this is some subtext under an illustration or image</p>
+                <div class="subtext-container">
+                    <p class="information-subtext">this is some subtext under an illustration or image.</p>
+                </div>
             </div>
             <div class="image-and-subtext">
                 <img src="placeholder.jpg" alt="placeholder" class="informational-image">
-                <p class="information-subtext">this is some subtext under an illustration or image</p>
+                <div class="subtext-container">
+                    <p class="information-subtext">this is some subtext under an illustration or image.</p>
+                </div>
             </div>
             <div class="image-and-subtext">
                 <img src="placeholder.jpg" alt="placeholder" class="informational-image">
-                <p class="information-subtext">this is some subtext under an illustration or image</p>
+                <div class="subtext-container">
+                    <p class="information-subtext">this is some subtext under an illustration or image.</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="quote-section">
-        <p class="main-quote">This is an inspiring quotes, or a testimonial from a costumer. Maybe it's just filling up
+        <p class="main-quote">This is an inspiring quote, or a testimonial from a costumer. Maybe it's just filling up
             space, or maybe
-            people will actually read it. Who knows? All I know is that it looks nice</p>
-        <p class="thor">-Thor, God of Thunder </p>
+            people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <p class="thor-quoter">-Thor, God of Thunder </p>
     </div>
     <div class="call-to-action">
         <div class="card">
             <div class="left-section">
-                <h3>Call to action! It's time!</h3>
+                <h3 id="call-to-action">Call to action! It's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
             <button type="button" id="call-to-action-button">Sign up</button>
